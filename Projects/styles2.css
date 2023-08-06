@@ -1,0 +1,95 @@
+/* Basic styles (same as before) */
+
+/* Responsive Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Real Estate Section */
+.real-estate-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.property-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.property-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.property-card h3 {
+    margin-top: 1rem;
+}
+
+.property-card p {
+    margin-top: 0.5rem;
+}
+
+.property-card a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.property-card a:hover {
+    background-color: #555;
+}
